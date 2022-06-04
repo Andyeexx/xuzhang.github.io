@@ -109,6 +109,8 @@ a:hover, a:active, a:focus {
 
 .main-about,
 .main-single-post,
+.main-roman,
+.main-hohohot,
 .main-gallery,
 .main-contact {
   height: 65vh;
@@ -280,16 +282,24 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  background: url('../images/myhome-bg.jpg') no-repeat;
   height: 100vh;
 }
 
 .main-about {
-  background: url('../images/about-bg.jpg') no-repeat;
+  background: url('../images/mypic.jpg') no-repeat;
 }
 
 .main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
+  background: url('../images/flowingfire-pic.jpg') no-repeat;
+}
+
+.main-hohohot {
+  background: url('../images/hohohotCover.jpg') no-repeat;
+}
+
+.main-roman{
+  background: url('../images/roman_cover.jpg') no-repeat;
 }
 
 .main-gallery {
@@ -733,7 +743,9 @@ footer .footer-copyright {
 @media (max-width: 980px) {
 
   .main-about,
-  .main-single-post,  
+  .main-single-post,
+  .main-roman,
+  .main-hohohot,  
   .main-gallery,
   .main-contact {
     height: 35vh;
