@@ -112,6 +112,7 @@ a:hover, a:active, a:focus {
 .main-roman,
 .main-hohohot,
 .main-gallery,
+.main-comeToMommy,
 .main-contact {
   height: 65vh;
 }
@@ -309,6 +310,12 @@ a:hover, a:active, a:focus {
 .main-contact {
   background: url('../images/contact-bg.jpg') no-repeat;
 }
+
+.main-comeToMommy {
+  background: url('../images/ComeToMommyCover.jpg') no-repeat;
+}
+
+
 
 #particles-js {
   position: absolute;
@@ -747,6 +754,7 @@ footer .footer-copyright {
   .main-roman,
   .main-hohohot,  
   .main-gallery,
+  .main-comeToMommy,
   .main-contact {
     height: 35vh;
   }
